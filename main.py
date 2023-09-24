@@ -21,10 +21,10 @@ driver.get("https://www.facebook.com/")
 # article_count.click()
 
 email = driver.find_element(By.NAME, "email")
-email.send_keys("biplab_049@yahoo.in")
+email.send_keys("email")
 
 password = driver.find_element(By.NAME, "pass")
-password.send_keys("RUBIBIPLAB")
+password.send_keys("password")
 
 login = driver.find_element(By.NAME, "login")
 login.send_keys(Keys.ENTER)
